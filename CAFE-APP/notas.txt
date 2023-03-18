@@ -1,0 +1,131 @@
+::::::::::::::::::::::::::::::::::::::::::::::::
+METODOS HTTP
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+Los métodos HTTP son comandos utilizados en el protocolo HTTP para solicitar 
+y enviar información a través de la web. Los métodos más comunes son 
+GET, POST, PUT, PATCH y DELETE.
+
+GET: El método GET se utiliza para solicitar datos de un servidor web. 
+Cuando un usuario hace clic en un enlace o introduce una URL en su navegador,
+se envía una solicitud GET al servidor, que devuelve los datos solicitados en 
+una respuesta. El método GET es seguro y no tiene efectos secundarios en el servidor.
+
+
+POST: El método POST se utiliza para enviar datos a un servidor web. 
+Se utiliza comúnmente para enviar formularios en línea o para enviar datos 
+al servidor en una solicitud de inicio de sesión. La información enviada
+a través del método POST no es visible en la URL y se envía en un paquete separado.
+El método POST puede tener efectos secundarios en el servidor.
+
+PUT: Este método se utiliza para actualizar completamente un recurso 
+en el servidor web. Es decir, si un cliente envía una solicitud PUT a una URL 
+específica, el servidor web actualizará completamente el recurso que 
+se encuentra en esa URL con los datos proporcionados por el cliente en la solicitud PUT.
+
+PATCH:Este método se utiliza para actualizar parcialmente un recurso en el 
+servidor web. Es decir, si un cliente envía una solicitud PATCH a una 
+URL específica, el servidor web actualizará solo una parte específica del 
+recurso que se encuentra en esa URL, en lugar de actualizar todo el recurso.
+
+DELETE: Este método se utiliza para eliminar un recurso en el servidor web. 
+Si un cliente envía una solicitud DELETE a una URL específica, el servidor web 
+eliminará completamente el recurso que se encuentra en esa URL.
+Es importante tener en cuenta que tanto PUT como PATCH se utilizan para actualizar 
+un recurso, pero la diferencia radica en el tipo de actualización que se realiza. 
+PUT actualiza completamente un recurso, mientras que PATCH actualiza solo una 
+parte del recurso.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+En Express, req (abreviatura de request) es un objeto que representa la solicitud 
+HTTP realizada por un cliente al servidor. Este objeto contiene información sobre 
+la solicitud, como la URL solicitada, los parámetros de consulta, los encabezados, 
+el método HTTP utilizado (GET, POST, etc.), el cuerpo de la solicitud y más.
+
+Algunas de las propiedades más importantes del objeto req son:
+
+req.params: un objeto que contiene los valores de los parámetros de ruta en la URL. 
+Por ejemplo, si se define una ruta como /users/:id, req.params.id contendrá 
+el valor del parámetro id en la URL.
+
+req.query: un objeto que contiene los valores de los parámetros de consulta en la URL.
+Por ejemplo, en la URL /?name=john&age=30, 
+req.query contendrá { name: 'john', age: '30' }.
+
+req.body: un objeto que contiene los datos enviados en el cuerpo de la solicitud.
+Este objeto solo está disponible si se utiliza middleware de análisis de cuerpo, 
+como express.json() o express.urlencoded().
+
+req.headers: un objeto que contiene los encabezados de la solicitud HTTP. 
+Por ejemplo, req.headers['user-agent'] contendrá el valor del encabezado User-Agent, 
+que indica el navegador o cliente utilizado para realizar la solicitud.
+
+req.cookies: un objeto que contiene las cookies enviadas en la solicitud.
+
+req.ip: la dirección IP del cliente que realizó la solicitud.
+
+req.method: el método HTTP utilizado en la solicitud (GET, POST, etc.).
+
+req.path: la ruta solicitada en la URL.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+MIDDLEWARE
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+En Express, un middleware es una función que se ejecuta entre el procesamiento 
+de una solicitud entrante y el envío de una respuesta al cliente. 
+En otras palabras, un middleware actúa como un intermediario entre 
+la solicitud del cliente y la respuesta del servidor.
+
+Un middleware se define como una función con tres parámetros: 
+req (la solicitud entrante), res (la respuesta saliente) y 
+next (una función que indica a Express que avance al siguiente middleware o controlador 
+en la cadena de middleware). La función middleware puede realizar cualquier 
+tarea necesaria, como verificar la autenticación del usuario, 
+analizar el cuerpo de la solicitud, modificar la solicitud o respuesta, 
+o incluso detener la solicitud y enviar una respuesta temprana al cliente.
+
+Los middleware se pueden utilizar a nivel de aplicación 
+(es decir, aplicarse a todas las solicitudes entrantes) 
+o a nivel de ruta (es decir, aplicarse solo a las solicitudes entrantes que 
+coinciden con una ruta específica). Los middleware también se pueden encadenar juntos, 
+lo que significa que se ejecutan en orden secuencial hasta que uno de ellos envía 
+una respuesta al cliente o llama a next() para pasar al siguiente middleware.
+
+Express proporciona una gran cantidad de middleware integrados, como express.json() 
+y express.urlencoded() para analizar el cuerpo de la solicitud, express.static()
+para servir archivos estáticos, y express.Router() para crear sub-rutas. 
+También es fácil crear middleware personalizado en Express, lo que permite 
+a los desarrolladores personalizar el comportamiento de su aplicación de manera flexible.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+DATO INTERESANTE, APP.LISTEN
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+En Express, app.listen es la función que inicia el servidor y comienza a escuchar 
+las solicitudes entrantes en un puerto específico. Generalmente, se llama al final del 
+archivo de la aplicación, después de que se hayan definido todas las rutas, middleware 
+y configuraciones.
+
+La razón principal por la que app.listen se ejecuta al final del archivo de la 
+aplicación es que antes de que se pueda comenzar a escuchar las solicitudes entrantes, 
+es necesario definir todas las rutas y configuraciones necesarias para manejar esas 
+solicitudes. Si se intenta llamar a app.listen antes de que se hayan definido todas 
+las rutas y middleware necesarios, el servidor no podrá manejar correctamente las 
+solicitudes entrantes.
+
+Además, app.listen es una función asíncrona que utiliza el protocolo TCP/IP 
+para establecer una conexión de red. Esto significa que la llamada a app.listen 
+puede tomar algún tiempo en completarse, y cualquier código que se coloque después 
+de esta llamada se ejecutará antes de que se establezca la conexión del servidor. 
+Por lo tanto, es importante asegurarse de que todo el código necesario se haya 
+ejecutado antes de llamar a app.listen.
+
+En resumen, app.listen se ejecuta al final del archivo de la aplicación en Express 
+porque es necesario haber definido todas las rutas y configuraciones antes de 
+que se pueda comenzar a escuchar las solicitudes entrantes, y también porque 
+es una función asíncrona que puede tardar en completarse.

@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png
