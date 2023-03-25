@@ -1,0 +1,56 @@
+[
+    {
+        "name": "croissant actualizado",
+        "image": "🥐",
+        "ingredients": "Flour, Water, Milk, Sugar, Butter",
+        "quantity": "10 🥐",
+        "price": 6.50,
+        "isNew": true,
+        "description": "A croissant is a flaky, crescent-shaped pastry that is made by layering butter and dough to create a rich, buttery flavor and a light, airy texture. The dough is typically made from flour, water, milk, sugar, salt, and yeast, and is rolled out and folded multiple times to create the distinct layers of the pastry. Croissants are commonly enjoyed for breakfast or as a snack, and can be served plain or filled with a variety of sweet or savory fillings. They are a popular pastry in many countries around the world and are often associated with French cuisine."
+    },
+    {
+        "name": "pancakes",
+        "image": "🥞",
+        "ingredients": "Flour, salt, Milk, Sugar, Butter, egg",
+        "quantity": "5 🥞",
+        "price": 8.75,
+        "isNew": false,
+        "description": "Pancakes are a popular breakfast food that are enjoyed all around the world. They are made from a simple batter of flour, sugar, baking powder, salt, milk, eggs, butter, and vanilla extract. The batter is mixed together until just combined, and then spooned onto a hot griddle or skillet. The pancakes are cooked until they are fluffy, golden brown, and slightly crispy on the edges. Pancakes can be served plain or with a variety of toppings, such as butter, syrup, jam, fresh fruit, whipped cream, or chocolate chips. They are a versatile and delicious breakfast option that can be customized to suit any taste preferences."
+    },
+    {
+        "name": "sandwich",
+        "image": "🥪",
+        "ingredients": "bread, cheese, tomato, Mayonnaise, turkey",
+        "quantity": "15 🥪",
+        "price": 5.55,
+        "isNew": false,
+        "description": "A turkey sandwich is a classic sandwich that consists of sliced deli turkey, cheese, lettuce, and tomato, between two slices of bread. The sandwich can be made with any type of bread, from white to whole wheat to sourdough, and can be toasted or left untoasted depending on personal preference. The deli turkey can be seasoned or unseasoned, and can be sliced thin or thick depending on preference. The cheese can be any type of cheese, such as cheddar, Swiss, or provolone, and the lettuce and tomato can be any variety, such as iceberg, romaine, or heirloom tomatoes. Mayonnaise or mustard can be added for extra flavor, and other ingredients can be added to customize the sandwich to individual taste preferences. A turkey sandwich is a popular lunch option that is easy to make and can be enjoyed on the go or at home."
+    },
+    {
+        "name": "pretzel",
+        "image": "🥨",
+        "ingredients": "Flour, salt, soda, Sugar, Butter, egg",
+        "quantity": "20 🥨",
+        "price": 5,
+        "isNew": true,
+        "description": "A turkey sandwich is a classic sandwich that consists of sliced deli turkey, cheese, lettuce, and tomato, between two slices of bread. The sandwich can be made with any type of bread, from white to whole wheat to sourdough, and can be toasted or left untoasted depending on personal preference. The deli turkey can be seasoned or unseasoned, and can be sliced thin or thick depending on preference. The cheese can be any type of cheese, such as cheddar, Swiss, or provolone, and the lettuce and tomato can be any variety, such as iceberg, romaine, or heirloom tomatoes. Mayonnaise or mustard can be added for extra flavor, and other ingredients can be added to customize the sandwich to individual taste preferences. A turkey sandwich is a popular lunch option that is easy to make and can be enjoyed on the go or at home."
+    },
+    {
+        "name": "cofe",
+        "image": "☕",
+        "ingredients": "Ground coffee beans, Water, Milk or cream (optional), Sweetener (optional)",
+        "quantity": "80 ☕",
+        "price": 2,
+        "isNew": false,
+        "description": "the specific type of coffee beans, roast level, and brewing method can vary depending on personal preference and region. Additionally, there are many different types of milk and sweeteners that can be used to customize the taste of the coffee."
+    },
+    {
+        "name": "drink box",
+        "image": "🧃",
+        "ingredients": "Water, Water, Fruit juice concentrate, Sugar or artificial sweeteners, Natural or artificial flavorings",
+        "quantity": "56 🧃",
+        "price": 2.5,
+        "isNew": true,
+        "description": "Juice boxes are a convenient and portable way to enjoy fruit juice on-the-go. They typically come in small, rectangular cartons with attached straws for easy drinking. The juice inside is made from concentrated fruit juice, water, and often includes added sugar or artificial sweeteners for flavor. Citric acid is added to provide tartness and balance the sweetness. Natural or artificial flavorings are also added to enhance the taste. Vitamins, such as vitamin C, may be added to provide extra nutrition. Preservatives, such as sodium benzoate, are added to extend the shelf life of the juice. In some cases, artificial colors may also be added to enhance the appearance of the juice. Overall, juice boxes are a popular and convenient option for enjoying fruit juice on-the-go."
+    }
+]
