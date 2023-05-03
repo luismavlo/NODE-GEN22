@@ -1,0 +1,54 @@
+.userinfo__content {
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.userinfo__header {
+  margin-right: 3em;
+}
+
+.userinfo__header > img {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+}
+
+.userinfo__body > h3 {
+  font-weight: 400;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.userinfo__name {
+  font-weight: 400;
+}
+
+.userinfo__body > h3 > span {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 0.5em;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 1em;
+  border: 1px solid rgb(34, 117, 67);
+  transition: color 250ms ease-in, background-color 250ms ease-in;
+}
+
+.userinfo__body > h3 > span:hover {
+  color: white;
+  background-color: rgb(34, 117, 67);
+}
+
+.userinfo__body > p {
+  color: #0009;
+  margin-bottom: 8px;
+}
+
+.userinfo__body > small {
+  color: #0007;
+}

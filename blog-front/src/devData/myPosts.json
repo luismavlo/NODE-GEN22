@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "results": 1,
+  "posts": [
+    {
+      "id": 1,
+      "title": "Concurrencia en programacion",
+      "content": "La concurrencia es una técnica informática que permite a los sistemas y programas realizar varias tareas simultáneamente, en lugar de ejecutar una tarea a la vez en secuencia. En otras palabras, es la capacidad de un sistema para realizar múltiples operaciones en paralelo.",
+      "userId": 6,
+      "status": "active",
+      "createdAt": "2023-04-20T18:53:28.287Z",
+      "updatedAt": "2023-04-20T18:53:28.287Z"
+    }
+  ]
+}

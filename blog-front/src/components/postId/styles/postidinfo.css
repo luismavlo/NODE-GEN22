@@ -1,0 +1,19 @@
+.postidinfo {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.postidinfo > h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.he-50 {
+  height: 40em;
+}
+
+.postidinfo__content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+}

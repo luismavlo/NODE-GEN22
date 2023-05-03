@@ -1,0 +1,47 @@
+{
+  "id": 1,
+  "title": "Concurrencia en programacion",
+  "content": "La concurrencia es una técnica informática que permite a los sistemas y programas realizar varias tareas simultáneamente, en lugar de ejecutar una tarea a la vez en secuencia. En otras palabras, es la capacidad de un sistema para realizar múltiples operaciones en paralelo.",
+  "image": [
+    "https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFpc2FqZXMlMjBoZXJtb3Nvc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "https://www.blogdelfotografo.com/wp-content/uploads/2015/09/Paisaje-de-contrastes.jpg",
+    "https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2018/Mandy-Lea-landscapes/Media/Mandy-Lea-meadow-4.jpg"
+  ],
+  "user": {
+    "id": 9,
+    "name": "jam",
+    "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid pariatur reiciendis porro repellat nesciunt?",
+    "createdAt": "2023-04-20T18:53:28.287Z",
+    "updatedAt": "2023-04-20T18:53:28.287Z"
+  },
+  "status": "active",
+  "createdAt": "2023-04-20T18:53:28.287Z",
+  "updatedAt": "2023-04-20T18:53:28.287Z",
+  "comments": [
+    {
+      "text": "Funciona de maravilla las relaciones",
+      "createdAt": "2023-04-20T00:18:53.656Z",
+      "user": {
+        "name": "luis",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      }
+    },
+    {
+      "text": "je este commentario me va a hacer triunfar :D!",
+      "createdAt": "2023-04-19T01:59:18.178Z",
+      "user": {
+        "name": "luis",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      }
+    },
+    {
+      "text": "Otro comentario, esto esta muy bien",
+      "createdAt": "2023-04-20T00:18:40.844Z",
+      "user": {
+        "name": "luis",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      }
+    }
+  ]
+}

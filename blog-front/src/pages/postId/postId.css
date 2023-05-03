@@ -1,0 +1,16 @@
+.postid_content {
+  width: 100%;
+  min-height: calc(100vh - var(--height-header));
+}
+
+.postid__history {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding-top: 2em;
+}
+
+.bg_grey {
+  border-top: 1px solid #0001;
+  background-color: #fafafa;
+}

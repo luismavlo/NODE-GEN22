@@ -1,0 +1,148 @@
+{
+  "status": "success",
+  "results": 9,
+  "posts": [
+    {
+      "id": 4,
+      "title": "Titulo del segundo post",
+      "content": "Contenido del segundo post",
+      "createdAt": "2023-06-15T02:48:35.931Z",
+      "updatedAt": "2023-04-15T02:48:35.931Z",
+      "user": {
+        "id": 9,
+        "name": "jam",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": []
+    },
+    {
+      "id": 8,
+      "title": "Titulo del segundo post",
+      "content": "Contenido del segundo post",
+      "createdAt": "2023-04-15T07:48:35.931Z",
+      "updatedAt": "2023-04-15T02:48:35.931Z",
+      "user": {
+        "id": 9,
+        "name": "jam",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": []
+    },
+    {
+      "id": 7,
+      "title": "Titulo del segundo post",
+      "content": "Contenido del segundo post",
+      "createdAt": "2023-04-15T05:48:35.931Z",
+      "updatedAt": "2023-04-15T02:48:35.931Z",
+      "user": {
+        "id": 10,
+        "name": "roxana",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": []
+    },
+    {
+      "id": 9,
+      "title": "Titulo del segundo post",
+      "content": "Contenido del segundo post",
+      "createdAt": "2023-04-15T04:48:35.931Z",
+      "updatedAt": "2023-04-15T02:48:35.931Z",
+      "user": {
+        "id": 10,
+        "name": "roxana",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": []
+    },
+    {
+      "id": 2,
+      "title": "Titulo del segundo post",
+      "content": "Contenido del segundo post",
+      "createdAt": "2023-04-15T02:48:35.931Z",
+      "updatedAt": "2023-04-15T02:48:35.931Z",
+      "user": {
+        "id": 9,
+        "name": "jam",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": [
+        {
+          "text": "Funciona de maravilla las relaciones",
+          "createdAt": "2023-04-20T00:18:53.656Z",
+          "user": {
+            "name": "luis",
+            "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+          }
+        },
+        {
+          "text": "je este commentario me va a hacer triunfar :D!",
+          "createdAt": "2023-04-19T01:59:18.178Z",
+          "user": {
+            "name": "luis",
+            "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+          }
+        },
+        {
+          "text": "Otro comentario, esto esta muy bien",
+          "createdAt": "2023-04-20T00:18:40.844Z",
+          "user": {
+            "name": "luis",
+            "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "title post 3",
+      "content": "content post 3",
+      "createdAt": "2023-04-15T02:48:35.931Z",
+      "updatedAt": "2023-04-18T02:52:22.115Z",
+      "user": {
+        "id": 9,
+        "name": "jam",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": []
+    },
+    {
+      "id": 6,
+      "title": "Titulo del segundo post",
+      "content": "Contenido del segundo post",
+      "createdAt": "2023-04-15T01:48:35.931Z",
+      "updatedAt": "2023-04-15T02:48:35.931Z",
+      "user": {
+        "id": 9,
+        "name": "jam",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": []
+    },
+    {
+      "id": 5,
+      "title": "Titulo del segundo post",
+      "content": "Contenido del segundo post",
+      "createdAt": "2023-04-15T00:48:35.931Z",
+      "updatedAt": "2023-04-15T02:48:35.931Z",
+      "user": {
+        "id": 11,
+        "name": "aron",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": []
+    },
+    {
+      "id": 10,
+      "title": "Titulo del segundo post",
+      "content": "Contenido del segundo post",
+      "createdAt": "2023-04-14T22:48:35.931Z",
+      "updatedAt": "2023-04-15T02:48:35.931Z",
+      "user": {
+        "id": 11,
+        "name": "aron",
+        "profileImgUrl": "https://www.researchgate.net/publication/315108532/figure/fig1/AS:472492935520261@1489662502634/Figura-2-Avatar-que-aparece-por-defecto-en-Facebook.png"
+      },
+      "comments": []
+    }
+  ]
+}

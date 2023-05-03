@@ -1,0 +1,42 @@
+.home {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.home__title {
+  margin-bottom: 0.8em;
+}
+
+.home__description {
+  color: #0006;
+}
+
+.home__post-container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.home__btn {
+  background-color: rgb(34, 117, 67);
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 1.5em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition: transform 100ms ease, box-shadow 100ms ease;
+  opacity: 0.5;
+}
+.home__btn:hover {
+  filter: brightness(1.15);
+  transform: scale(1.1);
+  box-shadow: 0 0 0.5em #0003;
+  opacity: 1;
+  transition: transform 100ms ease, box-shadow 100ms ease, opacity 500ms ease;
+}
